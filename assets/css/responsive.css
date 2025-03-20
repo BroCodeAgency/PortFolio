@@ -1,14 +1,30 @@
-@media (max-width: 480px) {
+@media (max-width: 478px) {
     .heroContainer {
         flex-direction: column;
     }
 
     .textContainer {
         width: 100%;
-
     }
 
+    .first-text {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
 
+    .first-text #text1 {
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: row;
+        letter-spacing: 1px;
+    }
+
+    .card-content p {
+        /* color: var(--text-muted); */
+        /* height: 80px; */
+        margin-bottom: 30px;
+    }
 
     #text1 {
         font-size: 2rem;
@@ -20,7 +36,7 @@
 
     .textContainer #small {
         text-align: justify;
-       min-width: 100%;
+        min-width: 100%;
         margin: 0 auto;
         line-height: 1.6;
     }
@@ -34,7 +50,7 @@
     }
 
     .container {
-        padding: 0 1rem;
+        padding: 0 0rem;
     }
 
     section {
@@ -117,8 +133,8 @@
 
     .hero p {
         font-size: 1.1rem;
-       
-       
+
+
 
     }
 
