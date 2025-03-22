@@ -159,7 +159,103 @@
     }
 }
 
+/* for table and after mobile size */
+/* only for hero section in home page */
+
+@media (min-width: 426px) and (max-width:900px) {
+
+    .heroContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .heroContainer .textContainer {
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .heroContainer .imgContainer {
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .first-text {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+
+    .first-text #text1 {
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: row;
+        letter-spacing: 1px;
+    }
+
+}
+
+/* for mini laptop and after table size */
+/* only for hero section in home page */
+
+@media (min-width: 900px) and (max-width:1237px) {
+
+    .first-text {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+
+    .first-text #text1 {
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: row;
+        letter-spacing: 1px;
+    }
+
+}
+
+
 @media (max-width: 900px) {
+
+    .heroContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .heroContainer .textContainer {
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .heroContainer .imgContainer {
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .first-text {
+        display: flex;
+        flex-direction: column;
+        /* margin-bottom: 80px; */
+    }
+
+    .first-text #text1 {
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: row;
+        letter-spacing: 1px;
+    }
 
     .about-grid,
     .contact-grid {

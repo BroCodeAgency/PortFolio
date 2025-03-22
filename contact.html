@@ -4,7 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Bro Code</title>
+    <title>Contact Us | Bro Code</title>
+    
+    <!-- favicon icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    <!-- fevicol icon end -->
+
     <!-- font-awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -63,7 +71,7 @@
                 <!-- Contact Form -->
                 <div class="contact-form fade-in">
                     <h2>Send us a Message</h2>
-                    <form id="contactForm">
+                    <form id="contactForm" name="portfolio-contact" netlify>
                         <div class="form-group">
                             <label for="name">Name</label>
                             <input type="text" id="name" name="name" required>
@@ -116,10 +124,14 @@
                         <!-- <a href="#"><i class="icon-twitter">🐦</i></a> -->
                         <!-- <a href="#"><i class="icon-instagram">📷</i></a> -->
                         <!-- <a href="#"><i class="icon-linkedin">💼</i></a> -->
-                        <i class="fa-brands fa-square-facebook"></i>
-                        <i class="fa-brands fa-square-twitter"></i>
-                        <i class="fa-brands fa-square-instagram"></i>
-                        <i class="fa-brands fa-linkedin"></i>
+                        <a target="_blank" href="mailto:brocodeagency7@gmail.com"><i
+                                class="fa-solid fa-envelope"></i></a>
+                        <!-- <i class="fa-brands fa-square-twitter"></i> -->
+                        <a target="_blank" href="https://www.instagram.com/brocodeagency?igsh=MTlsZmZmOGgxdm95aA=="><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                        <a target="_blank"
+                            href="https://www.linkedin.com/in/bro-code-agency-b96139357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                class="fa-brands fa-linkedin"></i></a>
                     </div>
                 </div>
             </div>
@@ -169,16 +181,30 @@
 
                 <div class="footer-section cont">
                     <h3>Contact Us</h3>
-                    <form>
+                    <form name="portfolio-footer" netlify>
                         <input type="email" placeholder="Enter your email">
                         <button>Subscribe</button>
                     </form>
+                    <div class="social-links">
+                        <!-- <a href="#"><i class="icon-facebook">📱</i></a> -->
+                        <!-- <a href="#"><i class="icon-twitter">🐦</i></a> -->
+                        <!-- <a href="#"><i class="icon-instagram">📷</i></a> -->
+                        <!-- <a href="#"><i class="icon-linkedin">💼</i></a> -->
+                        <a target="_blank" href="mailto:brocodeagency7@gmail.com"><i
+                                class="fa-solid fa-envelope"></i></a>
+                        <!-- <i class="fa-brands fa-square-twitter"></i> -->
+                        <a target="_blank" href="https://www.instagram.com/brocodeagency?igsh=MTlsZmZmOGgxdm95aA=="><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                        <a target="_blank"
+                            href="https://www.linkedin.com/in/bro-code-agency-b96139357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
                 </div>
 
             </div>
 
             <div class="footer-bottom">
-                <p>&copy; <span id="current-year"></span> BroCode. All rights reserved.</p>
+                <p>&copy; <span id="current-year"></span> BroCode Vision. All rights reserved.</p>
             </div>
         </div>
     </footer>
